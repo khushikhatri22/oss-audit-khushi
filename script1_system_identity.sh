@@ -1,13 +1,21 @@
 #!/bin/bash
-# Script 1: System Identity Report - Khushi Khatri [24bai10311]
-# Concepts: variables, echo, $(cmd sub)
+# System Identity Report
 
-echo "============================================="
-echo "Open Source Audit - Khushi Khatri"
-echo "Software: VLC"
-echo "============================================="
+STUDENT_NAME=KHUSHI KHATRI
+SOFTWARE_CHOICE="Git"
+
 KERNEL=$(uname -r)
-USERNAME=$(whoami)
+USER_NAME=$(whoami)
 UPTIME=$(uptime -p)
-echo "Kernel: $KERNEL | User: $USERNAME | Uptime: $UPTIME"
-echo "============================================="
+DISTRO=$(lsb_release -d | cut -f2)
+DATE=$(date)
+
+echo "=============================="
+echo "Open Source Audit — $STUDENT_NAME"
+echo "=============================="
+echo "Kernel  : $KERNEL"
+echo "User    : $USER_NAME"
+echo "Uptime  : $UPTIME"
+echo "Distro  : $DISTRO"
+echo "Date    : $DATE"
+echo "License : GPL (Open Source)"
