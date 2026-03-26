@@ -1,5 +1,5 @@
 # oss-audit-khushi
-# OSS Capstone Audit - Khushi Khatri [Reg: YOUR_REG] [Slot: YOUR_SLOT]
+# OSS Capstone Audit - Khushi Khatri 
 **Software:** VLC Media Player
 
 ## Instructions
